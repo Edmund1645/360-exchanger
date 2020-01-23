@@ -1,0 +1,37 @@
+.space-top {
+  margin-top: 12rem;
+}
+
+.delay-1x {
+  animation-delay: 300ms;
+}
+.delay-2x {
+  animation-delay: 600ms;
+}
+.delay-3x {
+  animation-delay: 900ms;
+}
+.delay-4x {
+  animation-delay: 1200ms;
+}
+.delay-5x {
+  animation-delay: 15000ms;
+}
+
+// fade animations
+.fade-up-enter-active,
+.fade-up-leave-active {
+  transition: all 0.3s;
+}
+
+.fade-up-enter,
+.fade-up-leave-to {
+  transform: translateY(-10px);
+  opacity: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .space-top {
+    margin-top: 7rem;
+  }
+}
