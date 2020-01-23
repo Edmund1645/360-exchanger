@@ -1,6 +1,6 @@
 <template>
   <div id="customers" class="container space-top">
-    <h2 class="display-4 text-center font-weight-bold">What out customers think about us</h2>
+    <h2 class="display-text center-text font-weight-bold">What out customers think about us</h2>
   </div>
 </template>
 
@@ -10,5 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

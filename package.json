@@ -14,7 +14,6 @@
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
     "vue": "^2.6.10",
-    "vue-animate-scroll": "^0.1.5",
     "vue-unicons": "^2.0.3"
   },
   "devDependencies": {

@@ -8,34 +8,20 @@
         <div class="col-sm-10 col-lg-6 pt-4 position-relative">
           <!-- animated logos -->
           <div class="animated-container bitcoin">
-            <img
-              class="animated-logos animated-bitcoin"
-              src="../assets/images/Bitcoin.svg"
-              alt="bitcoin logo"
-            />
+            <img class="animated-logos animated-bitcoin" src="../assets/images/Bitcoin.svg" alt="bitcoin logo" />
           </div>
           <div class="animated-container eth">
-            <img
-              class="animated-logos animated-eth"
-              src="../assets/images/Ethereum.svg"
-              alt="ethereum logo"
-            />
+            <img class="animated-logos animated-eth" src="../assets/images/Ethereum.svg" alt="ethereum logo" />
           </div>
           <div class="animated-container ripple">
-            <img
-              class="animated-logos animated-ripple"
-              src="../assets/images/Ripple.svg"
-              alt="ripple logo"
-            />
+            <img class="animated-logos animated-ripple" src="../assets/images/Ripple.svg" alt="ripple logo" />
           </div>
 
           <!-- normal content -->
           <h1 class="display-text font-weight-bold animated fadeInDown">Convert cash</h1>
           <h1 class="display-text font-weight-bold animated delay-1x fadeInDown">into crypto,</h1>
           <h1 class="display-text font-weight-bold animated delay-2x fadeInDown">with ease.</h1>
-          <p
-            class="lead animated fadeInDown delay-3x"
-          >A better way to sell or cash out cryptocurrencies instantly.</p>
+          <p class="lead animated fadeInDown delay-3x">A better way to sell or cash out cryptocurrencies instantly.</p>
         </div>
         <div class="col-md-6 col-12 col-lg-5 mx-auto ml-md-auto pt-md-4">
           <!-- <img
@@ -43,11 +29,7 @@
             src="../assets/images/currency conversion.svg"
             alt="Cryptocurrency conversion"
           />-->
-          <img
-            class="img-fluid deal-image"
-            src="../assets/images/undraw_business_deal_cpi9.svg"
-            alt="deal"
-          />
+          <img class="img-fluid deal-image" src="../assets/images/undraw_business_deal_cpi9.svg" alt="deal" />
         </div>
       </div>
     </div>
@@ -106,9 +88,7 @@ export default {
   }
 }
 
-.display-text {
-  font-size: 4.4rem;
-}
+
 
 @keyframes rotate {
   0% {
@@ -118,9 +98,5 @@ export default {
     transform: rotate(360deg) translate(-50px) rotate(-360deg);
   }
 }
-@media screen and (max-width: 425px) {
-  .display-text {
-    font-size: 3.5rem;
-  }
-}
+
 </style>
