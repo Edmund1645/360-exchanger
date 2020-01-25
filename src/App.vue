@@ -4,6 +4,8 @@
     <Services />
     <WhyUs />
     <Customers />
+    <ContactUs/>
+    <Footer/>
   </div>
 </template>
 
@@ -12,13 +14,17 @@ import Header from './components/Header';
 import Services from './components/Services';
 import WhyUs from './components/WhyUs';
 import Customers from './components/Customers';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer'
 export default {
   name: 'app',
   components: {
     Header,
     Services,
     WhyUs,
-    Customers
+    Customers,
+    ContactUs,
+    Footer
   }
 };
 </script>

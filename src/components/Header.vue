@@ -18,8 +18,8 @@
           </div>
 
           <!-- normal content -->
-          <h1 class="display-text font-weight-bold animated fadeInDown">Convert cash</h1>
-          <h1 class="display-text font-weight-bold animated delay-1x fadeInDown">into crypto,</h1>
+          <h1 class="display-text font-weight-bold animated fadeInDown">Convert crypto</h1>
+          <h1 class="display-text font-weight-bold animated delay-1x fadeInDown">into cash,</h1>
           <h1 class="display-text font-weight-bold animated delay-2x fadeInDown">with ease.</h1>
           <p class="lead animated fadeInDown delay-3x">A better way to sell or cash out cryptocurrencies instantly.</p>
         </div>
