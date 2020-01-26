@@ -4,8 +4,9 @@
     <Services />
     <WhyUs />
     <Customers />
-    <ContactUs/>
-    <Footer/>
+    <ContactUs />
+    <Faq />
+    <Footer />
   </div>
 </template>
 
@@ -15,7 +16,8 @@ import Services from './components/Services';
 import WhyUs from './components/WhyUs';
 import Customers from './components/Customers';
 import ContactUs from './components/ContactUs';
-import Footer from './components/Footer'
+import Faq from './components/Faq';
+import Footer from './components/Footer';
 export default {
   name: 'app',
   components: {
@@ -24,6 +26,7 @@ export default {
     WhyUs,
     Customers,
     ContactUs,
+    Faq,
     Footer
   }
 };

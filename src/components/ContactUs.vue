@@ -1,5 +1,5 @@
 <template>
-  <div class="container contact-section space-top mb-5">
+  <div id="contact" class="container contact-section space-top mb-5">
     <h2 data-aos="fade-up" class="display-text center-text font-weight-bold">Contact Us?</h2>
     <p
       data-aos="fade-up"
@@ -9,7 +9,7 @@
     <div
       data-aos="fade-up"
       data-aos-delay="600"
-      class="form-section col-12 col-md-8 shadow mx-auto p-4 p-md-5 bg-white rounded-lg"
+      class="form-section col-12 col-md-10 col-lg-8 shadow mx-auto p-3 p-md-5 bg-white rounded-lg"
     >
       <form
         id="fs-frm"
@@ -62,6 +62,7 @@
               required
             ></textarea>
           </div>
+          <input type="hidden" name="_next" value="https://360exchanger.com/#contact" />
           <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
         </fieldset>
         <!-- <input type="submit" value="Submit" /> -->
@@ -83,6 +84,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.contact-section {
+  background: url('../assets/images/svg-blob-1.svg');
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: 425px) {
+    background-position: right 20px;
+  }
+}
 .send-button {
   border: 1px solid var(--thick-purple);
   color: var(--thick-purple);

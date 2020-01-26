@@ -28,7 +28,7 @@
             <strong>The best rates on the market</strong>
           </p>
         </div>
-        <div data-aos="fade-up" data-aos-delay="800" class="col-md-4 col-sm-12">
+        <div data-aos="fade-up" data-aos-delay="600" class="col-md-4 col-sm-12">
           <img
             class="why-us-icons three"
             src="../assets/images/mobile-payment.svg"
