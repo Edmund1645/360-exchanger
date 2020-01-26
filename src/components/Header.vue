@@ -18,10 +18,10 @@
           </div>
 
           <!-- normal content -->
-          <h1 class="display-text font-weight-bold animated fadeInDown">Convert crypto</h1>
-          <h1 class="display-text font-weight-bold animated delay-1x fadeInDown">into cash,</h1>
-          <h1 class="display-text font-weight-bold animated delay-2x fadeInDown">with ease.</h1>
-          <p class="lead animated fadeInDown delay-3x">A better way to sell or cash out cryptocurrencies instantly.</p>
+          <h1 data-aos="fade-down" class="display-text font-weight-bold ">Convert crypto</h1>
+          <h1 data-aos="fade-down" data-aos-delay="200"  class="display-text font-weight-bold ">into cash,</h1>
+          <h1 data-aos="fade-down" data-aos-delay="400"  class="display-text font-weight-bold ">with ease.</h1>
+          <p data-aos="fade-down" data-aos-delay="600"  class="lead">A better way to sell or cash out cryptocurrencies instantly.</p>
         </div>
         <div class="col-md-6 col-12 col-lg-5 mx-auto ml-md-auto pt-md-4">
           <!-- <img

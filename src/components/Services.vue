@@ -2,8 +2,8 @@
   <div id="services" class="container services-section space-top">
     <div class="row">
       <div class="col-md-10 col-lg-6 m-md-auto col-sm-12">
-        <h2 data-aos="fadeInUp" class="display-text font-weight-bold">What do we offer?</h2>
-        <p data-aos="fadeInUp" class="mt-4 delay-1x lead">
+        <h2 data-aos="fade-up" class="display-text font-weight-bold">What do we offer?</h2>
+        <p data-aos="fade-up"  class="mt-4 lead">
           We offer you, our customers an opportunity to exchange your cryptocurrencies at the best rates on the market. We buy
           <strong class="font-weight-bold">Bitcoin, Ethereum and Litecoin</strong> and with our live chat feature and hassle free transactions, you would certainly be coming back
           for more!
@@ -11,19 +11,19 @@
       </div>
       <div class="col-md-10 mt-5 mx-md-auto col-lg-5 ml-lg-5 col-sm-8">
         <div class="coin-card-container">
-          <div data-aos="fadeInUp" class="coin-card one rounded-lg">
+          <div data-aos="fade-up" data-aos-delay="400" class="coin-card one rounded-lg">
             <img class="img-fluid" src="../assets/images/icons8-litecoin.svg" alt="ltc logo" />
             <p class="text-center bolder text-white mt-3">
               <strong>Litecoin</strong>
             </p>
           </div>
-          <div data-aos="fadeInUp" class="coin-card delay-1x two rounded-lg">
+          <div data-aos="fade-up" data-aos-delay="700" class="coin-card two rounded-lg">
             <img class="img-fluid" src="../assets/images/icons8-bitcoin.svg" alt="bitcoin logo" />
             <p class="text-center bolder text-white mt-3">
               <strong>Bitcoin</strong>
             </p>
           </div>
-          <div data-aos="fadeInUp" class="coin-card delay-2x three rounded-lg">
+          <div data-aos="fade-up" data-aos-delay="1000" class="coin-card three rounded-lg">
             <img class="img-fluid" src="../assets/images/icons8-ethereum.svg" alt="eth logo" />
             <p class="text-center bolder text-white mt-3">
               <strong>Ethreuem</strong>
