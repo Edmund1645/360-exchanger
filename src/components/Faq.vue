@@ -1,6 +1,94 @@
 <template>
   <div class="container space-top" id="faq">
-    <h2 class="display-text center-text font-weight-bold">Questions asked frequently</h2>
+    <h2
+      data-aos="fade-up"
+      class="display-text center-text font-weight-bold"
+    >Questions asked frequently</h2>
+    <p
+      data-aos="fade-up"
+      data-aos-delay="300"
+      class="lead center-text"
+    >Need to ask some questions? we've got you. Here are some questions frequently asked by our customers.</p>
+    <div class="faqs px-0 col-md-10 mx-md-auto">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div
+            class="card-header py-md-3"
+            id="headingOne"
+            data-toggle="collapse"
+            data-target="#collapseOne"
+            aria-expanded="false"
+            aria-controls="collapseOne"
+          >
+            <div class="question">
+              <h5 class="mb-0">How can I sell my cryptocurrency?</h5>
+              <unicon name="plus" fill="var(--thick-purple)" />
+            </div>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div
+              class="card-body"
+            >Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+          </div>
+        </div>
+        <div class="card">
+          <div
+            class="card-header py-md-3"
+            id="headingTwo"
+            data-toggle="collapse"
+            data-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            <div class="question">
+              <h5 class="mb-0">What kind of crypto do you buy?</h5>
+              <unicon name="plus" fill="var(--thick-purple)" />
+            </div>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionExample"
+          >
+            <div
+              class="card-body"
+            >Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+          </div>
+        </div>
+        <div class="card">
+          <div
+            class="card-header py-md-3"
+            id="headingThree"
+            data-toggle="collapse"
+            data-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            <div class="question">
+              <h5 class="mb-0">What are the modes of payment?</h5>
+              <unicon name="plus" fill="var(--thick-purple)" />
+            </div>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            <div
+              class="card-body"
+            >Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -10,5 +98,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.question {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
 </style>

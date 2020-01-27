@@ -9,3 +9,6 @@ html {
 body {
   background-color: var(--light-grey);
 }
+::placeholder {
+  opacity: 0.45 !important;
+}

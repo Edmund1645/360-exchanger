@@ -1,21 +1,19 @@
 <template>
   <div class="footer">
-    <div class="container">
-
-    </div>
-    <hr/>
+    <div class="container"></div>
+    <hr />
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'Footer'
-  }
+export default {
+  name: 'Footer'
+};
 </script>
 
 <style lang="scss" scoped>
-.footer{
+.footer {
   height: 500px;
-  background-color: #3e206d
+  background-color: #3e206d;
 }
 </style>

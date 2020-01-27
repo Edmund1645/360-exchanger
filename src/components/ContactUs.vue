@@ -7,8 +7,6 @@
       class="lead center-text"
     >Need to make enquiries or reach out to us? Do shoot us an email by filling the form below.</p>
     <div
-      data-aos="fade-up"
-      data-aos-delay="600"
       class="form-section col-12 col-md-10 col-lg-8 shadow mx-auto p-3 p-md-5 bg-white rounded-lg"
     >
       <form
