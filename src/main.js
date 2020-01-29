@@ -5,6 +5,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Unicon from 'vue-unicons';
 import { uniBars, uniAngleDown, uniWhatsapp, uniInstagramAlt, uniTwitter, uniFastMail, uniPlus } from 'vue-unicons/src/icons';
+import VueCarousel from 'vue-carousel';
+
+Vue.use(VueCarousel);
 
 Unicon.add([uniBars, uniAngleDown, uniWhatsapp, uniInstagramAlt, uniTwitter, uniFastMail, uniPlus]);
 Vue.use(Unicon);

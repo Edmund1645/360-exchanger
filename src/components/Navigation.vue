@@ -31,25 +31,17 @@
             <a class="nav-link" href="#contact">Contact us</a>
           </li>
           <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Follow us
               <unicon name="angle-down" fill="currentColor" />
             </a>
             <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-              <!-- <a class="dropdown-item" href="#">
+              <a class="dropdown-item" href="#">
                 <span class>
                   <unicon name="whatsapp" fill="#43d854" />
                 </span>
                 <span class="ml-2">Whatsapp</span>
-              </a>-->
+              </a>
               <a class="dropdown-item" href="#">
                 <unicon name="twitter" fill="#00aced" />
                 <span class="ml-2">Twitter</span>

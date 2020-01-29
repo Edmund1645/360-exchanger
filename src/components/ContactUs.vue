@@ -1,21 +1,9 @@
 <template>
   <div id="contact" class="container contact-section space-top mb-5">
     <h2 data-aos="fade-up" class="display-text center-text font-weight-bold">Contact Us?</h2>
-    <p
-      data-aos="fade-up"
-      data-aos-delay="300"
-      class="lead center-text"
-    >Need to make enquiries or reach out to us? Do shoot us an email by filling the form below.</p>
-    <div
-      class="form-section col-12 col-md-10 col-lg-8 shadow mx-auto p-3 p-md-5 bg-white rounded-lg"
-    >
-      <form
-        id="fs-frm"
-        name="360-Exchanger-form"
-        accept-charset="utf-8"
-        action="https://formspree.io/darlington@360exchanger.com"
-        method="post"
-      >
+    <p data-aos="fade-up" data-aos-delay="300" class="lead center-text">Need to make enquiries or reach out to us? Do shoot us an email by filling the form below.</p>
+    <div class="form-section col-12 col-md-10 col-lg-8 shadow mx-auto p-3 p-md-5  rounded-lg">
+      <form id="fs-frm" name="360-Exchanger-form" accept-charset="utf-8" action="https://formspree.io/darlington@360exchanger.com" method="post">
         <fieldset id="fs-frm-inputs">
           <!-- name -->
           <div class="form-group">
@@ -23,14 +11,7 @@
               Full Name
               <span class="text-danger">*</span>
             </label>
-            <input
-              type="text"
-              class="form-control"
-              name="name"
-              id="full-name"
-              placeholder="Mark Jones"
-              required
-            />
+            <input type="text" class="form-control" name="name" id="full-name" placeholder="Mark Jones" required />
           </div>
 
           <!-- email -->
@@ -39,26 +20,12 @@
               Email Address
               <span class="text-danger">*</span>
             </label>
-            <input
-              type="email"
-              class="form-control"
-              name="_replyto"
-              id="email-address"
-              placeholder="mark_jones@example.com"
-              required
-            />
+            <input type="email" class="form-control" name="_replyto" id="email-address" placeholder="mark_jones@example.com" required />
           </div>
 
           <div class="form-group">
-            <label for="message">Message</label>
-            <textarea
-              rows="5"
-              class="form-control"
-              name="message"
-              id="message"
-              placeholder="Hello, I'm Mark and I'm look to make enquiries..."
-              required
-            ></textarea>
+            <label for="message">Message <span class="text-danger">*</span></label>
+            <textarea rows="5" class="form-control" name="message" id="message" placeholder="Hello, I'm Mark and I'm look to make enquiries..." required></textarea>
           </div>
           <input type="hidden" name="_next" value="https://360exchanger.com/#contact" />
           <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
@@ -130,5 +97,8 @@ export default {
       border-bottom-right-radius: 0;
     }
   }
+}
+.form-section {
+  background: var(--lighter-grey);
 }
 </style>
