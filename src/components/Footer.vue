@@ -68,10 +68,9 @@ export default {
 ul.nav li.nav-item a.nav-link {
   padding-left: 10px;
   color: white;
-  
-  &:hover {
 
-    text-decoration: underline
+  &:hover {
+    text-decoration: underline;
   }
 }
 </style>

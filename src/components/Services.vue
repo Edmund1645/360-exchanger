@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-10 col-lg-6 m-md-auto col-sm-12">
         <h2 data-aos="fade-up" class="display-text font-weight-bold">What do we offer?</h2>
-        <p data-aos="fade-up"  class="mt-4 lead">
+        <p data-aos="fade-up" class="mt-4 lead">
           We offer you, our customers an opportunity to exchange your cryptocurrencies at the best rates on the market. We buy
           <strong class="font-weight-bold">Bitcoin, Ethereum and Litecoin</strong> and with our live chat feature and hassle free transactions, you would certainly be coming back
           for more!

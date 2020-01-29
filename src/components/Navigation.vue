@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div id="coin-data"></div>
+    <div id="coin-data">
+      <script type="application/javascript" src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js" defer></script>
+      <coingecko-coin-price-marquee-widget coin-ids="bitcoin,ethereum,litecoin" currency="usd" background-color="#ffffff" locale="en" v-pre></coingecko-coin-price-marquee-widget>
+    </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
@@ -34,15 +37,7 @@
               <a class="nav-link" href="#contact">Contact us</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Follow us
                 <unicon name="angle-down" fill="currentColor" />
               </a>
@@ -74,20 +69,12 @@
 
 <script>
 /* eslint-disable no-useless-escape */
-import postscribe from 'postscribe';
+
 export default {
   name: 'Navigation',
   props: {},
   data() {
     return {};
-  },
-  mounted() {
-    postscribe(
-      '#coin-data',
-      `<script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js" defer><\/script>
-<coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,litecoin" currency="usd" background-color="#ffffff" locale="en" font-color="#372f36"></coingecko-coin-price-marquee-widget>
-    <div id="app"></div>`
-    );
   }
 };
 </script>

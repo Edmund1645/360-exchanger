@@ -19,9 +19,9 @@
 
           <!-- normal content -->
           <h1 data-aos="fade-down" class="display-text font-weight-bold ">Convert crypto</h1>
-          <h1 data-aos="fade-down" data-aos-delay="200"  class="display-text font-weight-bold ">into cash,</h1>
-          <h1 data-aos="fade-down" data-aos-delay="400"  class="display-text font-weight-bold ">with ease.</h1>
-          <p data-aos="fade-down" data-aos-delay="600"  class="lead">A better way to sell or cash out cryptocurrencies instantly.</p>
+          <h1 data-aos="fade-down" data-aos-delay="200" class="display-text font-weight-bold ">into cash,</h1>
+          <h1 data-aos="fade-down" data-aos-delay="400" class="display-text font-weight-bold ">with ease.</h1>
+          <p data-aos="fade-down" data-aos-delay="600" class="lead">A better way to sell or cash out cryptocurrencies instantly.</p>
         </div>
         <div class="col-md-6 col-12 col-lg-5 mx-auto ml-md-auto pt-md-4">
           <!-- <img
@@ -88,8 +88,6 @@ export default {
   }
 }
 
-
-
 @keyframes rotate {
   0% {
     transform: rotate(0deg) translate(-50px) rotate(0deg);
@@ -98,5 +96,4 @@ export default {
     transform: rotate(360deg) translate(-50px) rotate(-360deg);
   }
 }
-
 </style>
