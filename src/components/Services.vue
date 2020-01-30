@@ -5,7 +5,9 @@
         <h2 data-aos="fade-up" class="display-text font-weight-bold">What do we offer?</h2>
         <p data-aos="fade-up" class="mt-4 lead">
           We offer you, our customers an opportunity to exchange your cryptocurrencies at the best rates on the market. We buy
-          <strong class="font-weight-bold">Bitcoin, Ethereum and Litecoin</strong> and with our live chat feature and hassle free transactions, you would certainly be coming back
+          <strong
+            class="font-weight-bold"
+          >Bitcoin, Ethereum and Litecoin</strong> and with our live chat feature and hassle free transactions, you would certainly be coming back
           for more!
         </p>
       </div>
@@ -26,7 +28,7 @@
           <div data-aos="fade-up" data-aos-delay="1000" class="coin-card three rounded-lg">
             <img class="img-fluid" src="../assets/images/icons8-ethereum.svg" alt="eth logo" />
             <p class="text-center bolder text-white mt-3">
-              <strong>Ethreuem</strong>
+              <strong>Ethereum</strong>
             </p>
           </div>
         </div>

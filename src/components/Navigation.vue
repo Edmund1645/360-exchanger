@@ -1,8 +1,18 @@
 <template>
   <div>
     <div id="coin-data">
-      <script type="application/javascript" src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js" defer></script>
-      <coingecko-coin-price-marquee-widget coin-ids="bitcoin,ethereum,litecoin" currency="usd" background-color="#ffffff" locale="en" v-pre></coingecko-coin-price-marquee-widget>
+      <script
+        type="application/javascript"
+        src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"
+        defer
+      ></script>
+      <coingecko-coin-price-marquee-widget
+        coin-ids="bitcoin,ethereum,litecoin"
+        currency="usd"
+        background-color="#ffffff"
+        locale="en"
+        v-pre
+      ></coingecko-coin-price-marquee-widget>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -37,12 +47,20 @@
               <a class="nav-link" href="#contact">Contact us</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
                 Follow us
                 <unicon name="angle-down" fill="currentColor" />
               </a>
               <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="https://wa.me/08021481711">
                   <span class>
                     <unicon name="whatsapp" fill="#43d854" />
                   </span>
@@ -52,7 +70,7 @@
                   <unicon name="twitter" fill="#00aced" />
                   <span class="ml-2">Twitter</span>
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="https://www.instagram.com/360exchanger/">
                   <span class>
                     <unicon name="instagram-alt" fill="#d6249f" />
                   </span>

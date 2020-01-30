@@ -29,13 +29,13 @@
             <h4>Social Media</h4>
             <ul class="nav flex-column p-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Whatsapp</a>
+                <a class="nav-link" href="https://wa.me/08021481711">Whatsapp</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Twitter</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Instagram</a>
+                <a class="nav-link" href="https://www.instagram.com/360exchanger/">Instagram</a>
               </li>
             </ul>
           </div>
