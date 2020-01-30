@@ -60,7 +60,7 @@
                 <unicon name="angle-down" fill="currentColor" />
               </a>
               <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://wa.me/08021481711">
+                <a class="dropdown-item" target="_blank" href="https://wa.me/08021481711">
                   <span class>
                     <unicon name="whatsapp" fill="#43d854" />
                   </span>
@@ -70,7 +70,11 @@
                   <unicon name="twitter" fill="#00aced" />
                   <span class="ml-2">Twitter</span>
                 </a>
-                <a class="dropdown-item" href="https://www.instagram.com/360exchanger/">
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://www.instagram.com/360exchanger/"
+                >
                   <span class>
                     <unicon name="instagram-alt" fill="#d6249f" />
                   </span>
